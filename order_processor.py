@@ -2,6 +2,7 @@
 
 
 def calculate_total(items):
+    """Вычисляет общую стоимость товаров по цене и количеству."""
     return sum(item["price"] * item["quantity"] for item in items)
 
 
